@@ -1,4 +1,4 @@
-class MallardDuck(flyBehavior: FlyBehavior, quackBehavior: QuackBehavior) : Duck(flyBehavior, quackBehavior) {
+class MallardDuck(flyBehavior: FlyBehavior=FlyWithWings(), quackBehavior: QuackBehavior=Quack()) : Duck(flyBehavior, quackBehavior) {
     init{
         println("Created new Mallard Duck")
     }

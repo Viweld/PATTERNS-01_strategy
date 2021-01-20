@@ -6,7 +6,7 @@ abstract class Duck(var flyBehavior:FlyBehavior, var quackBehavior:QuackBehavior
         quackBehavior.quack()
     }
 
-    @JvmName("setFlyBehavior1")
+    /*@JvmName("setFlyBehavior1")
     fun setFlyBehavior(fb:FlyBehavior){
         flyBehavior=fb
     }
@@ -14,5 +14,5 @@ abstract class Duck(var flyBehavior:FlyBehavior, var quackBehavior:QuackBehavior
     @JvmName("setQuackBehavior1")
     fun setQuackBehavior(qb:QuackBehavior){
         quackBehavior=qb
-    }
+    }*/
 }

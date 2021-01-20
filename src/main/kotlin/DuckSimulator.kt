@@ -1,11 +1,11 @@
 fun main(args:Array<String>){
-    val mallard=MallardDuck(FlyWithWings(),Quack())
+    val mallard=MallardDuck()
     mallard.performFly()
     mallard.performQuack()
-    val model=ModelDuck(FlyNoWay(),Mute())
+    val model=ModelDuck()
     model.performFly()
     model.performQuack()
-    model.setFlyBehavior(FlyRocketPowered())
+    model.flyBehavior=FlyRocketPowered()
     model.performFly()
     model.performQuack()
 
